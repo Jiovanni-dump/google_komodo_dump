@@ -1,0 +1,14 @@
+base address: 0x10000000
+board name: 
+cmdline: dyndbg="func alloc_contig_dump_pages +p" earlycon=exynos4210,0x10870000 console=ttySAC0,115200 androidboot.console=ttySAC0 printk.devkmsg=on cma_sysfs.experimental=Y cgroup_disable=memory cgroup.memory=nokmem rcupdate.rcu_expedited=1 rcu_nocbs=all rcutree.enable_rcu_lazy swiotlb=noforce disable_dma32=on sysctl.kernel.sched_pelt_multiplier=4 at24.write_timeout=100 log_buf_len=1024K bootconfig
+dtb offset: 0x01f00000
+header version: 4
+image type: AOSP_VNDR
+kernel offset: 0x00008000
+original size: 67108864
+os version: None
+page size: 2048
+ramdisk compression: lz4-l
+ramdisk offset: 0x01000000
+sigtype: AVBv2
+tags offset: 0x00000100
